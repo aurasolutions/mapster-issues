@@ -20,4 +20,5 @@ To rebuild the generated files just run the batch file
 
   # #350
   ## Files generated with Mapster.Tool do not include the proper using statements when multiple namespaces are used
+  The `CompanyDto.g.cs` file and the `MeDto.g.cs` files cannot be compiled because they are missing `using` statements
 

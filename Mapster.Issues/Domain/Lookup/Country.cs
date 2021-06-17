@@ -8,6 +8,8 @@ namespace Mapster.Issues.Domain.Lookup
 
         public string Abbreviation { get; init; } = null!;
 
-        public ICollection<Province> Provinces { get; init; } = null!;
+        public Province[] Provinces { get; init; } = null!;
+
+        public ICollection<Province> WorkingProvinces { get; init; } = null!;
     }
 }
